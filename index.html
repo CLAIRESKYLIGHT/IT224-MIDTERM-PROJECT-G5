@@ -549,6 +549,7 @@
             </div>
           </div><!-- End Breakfast Menu Content -->
 
+<!--LUNCH SECTION-->
           <div class="tab-pane fade" id="menu-lunch">
 
             <div class="tab-header text-center">
@@ -559,14 +560,23 @@
             <div class="row gy-5">
 
                 <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
+                <a href="assets/img/menu/lunch1.png" class="glightbox"><img src="assets/img/menu/lunch1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Grilled Chicken Sallad</h4>
+                <a href="lunch1.html" id="grilled-chicken-salad" class="$btn-white-space: nowrap">View Recipe</a>
+                <script>
+                  document.getElementById('grilled-chicken-salad-link').addEventListener('click', function(event) {
+                      event.preventDefault();  // Prevent the default link behavior
+                      window.location.href = 'lunch1.html';
+                  });
+              </script>
+
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
+                <!--
                 <p class="price">
                   $5.95
-                </p>
+                </p>-->
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
