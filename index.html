@@ -1150,63 +1150,104 @@
     <!-- /Book A Table Section -->
 
     <!-- Gallery Section -->
-    <section id="gallery" class="gallery section light-background">
+<section id="gallery" class="gallery section" style="background-color: #e8f5e9; padding: 60px 0;">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Gallery</h2>
-        <p><span>Check</span> <span class="description-title">Our Gallery</span></p>
-      </div><!-- End Section Title -->
+<!-- Section Title -->
+<div class="container section-title" data-aos="fade-up" style="text-align: center; color: #2e7d32;">
+  <h2 style="font-size: 2.5rem; font-weight: bold; color: #4caf50;">Gallery</h2>
+  <h3 style="font-size: 1.5rem; font-weight: normal;">
+    <span style="color: #81c784;">Check</span> 
+    <span class="description-title" style="color: #ffd700;">Our Gallery</span> 
+  </h3>
+</div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "centeredSlides": true,
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 0
-                },
-                "768": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 20
-                },
-                "1200": {
-                  "slidesPerView": 5,
-                  "spaceBetween": 20
-                }
-              }
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "centeredSlides": true,
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 1,
+              "spaceBetween": 10
+            },
+            "768": {
+              "slidesPerView": 3,
+              "spaceBetween": 20
+            },
+            "1200": {
+              "slidesPerView": 5,
+              "spaceBetween": 20
             }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery1.jpg"><img src="assets/img/gallery/gallery1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery2.jpg"><img src="assets/img/gallery/gallery2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery3.jpg"><img src="assets/img/gallery/gallery3.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery4.jpg"><img src="assets/img/gallery/gallery4.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery5.jpg"><img src="assets/img/gallery/gallery5.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery6.jpg"><img src="assets/img/gallery/gallery6.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery7.jpg"><img src="assets/img/gallery/gallery7.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery8.jpg"><img src="assets/img/gallery/gallery8.jpg" class="img-fluid" alt=""></a></div>
-          </div>
-          <div class="swiper-pagination"></div>
+          }
+        }
+      </script>
+      <div class="swiper-wrapper align-items-center">
+        <div class="swiper-slide" style="border-radius: 10px; overflow: hidden;">
+          <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery1.jpg">
+            <img src="assets/img/gallery/gallery1.jpg" class="img-fluid" alt="" style="border-radius: 10px;">
+          </a>
         </div>
-
+        <div class="swiper-slide" style="border-radius: 10px; overflow: hidden;">
+          <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery2.jpg">
+            <img src="assets/img/gallery/gallery2.jpg" class="img-fluid" alt="" style="border-radius: 10px;">
+          </a>
+        </div>
+        <div class="swiper-slide" style="border-radius: 10px; overflow: hidden;">
+          <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery3.jpg">
+            <img src="assets/img/gallery/gallery3.jpg" class="img-fluid" alt="" style="border-radius: 10px;">
+          </a>
+        </div>
+        <div class="swiper-slide" style="border-radius: 10px; overflow: hidden;">
+          <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery4.jpg">
+            <img src="assets/img/gallery/gallery4.jpg" class="img-fluid" alt="" style="border-radius: 10px;">
+          </a>
+        </div>
+        <div class="swiper-slide" style="border-radius: 10px; overflow: hidden;">
+          <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery5.jpg">
+            <img src="assets/img/gallery/gallery5.jpg" class="img-fluid" alt="" style="border-radius: 10px;">
+          </a>
+        </div>
       </div>
+      <div class="swiper-pagination" style="margin-top: 15px;"></div>
+    </div>
 
-    </section><!-- /Gallery Section -->
+  </div>
+
+</section><!-- /Gallery Section -->
+
+<style>
+ 
+  .gallery .swiper-pagination-bullet {
+    background-color: #4caf50 !important; 
+  }
+
+  .gallery .swiper-pagination-bullet-active {
+    background-color: #2e7d32 !important; 
+  }
+
+  .gallery .swiper-slide img {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .gallery .swiper-slide img:hover {
+    transform: scale(1.05); 
+  }
+</style>
+
 
     <!-- Contact Section -->
     <!--<section id="contact" class="contact section">-->
