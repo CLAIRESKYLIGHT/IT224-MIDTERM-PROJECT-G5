@@ -1671,8 +1671,8 @@ section,
 
 .team-member:hover {
   transform: scale(1.05);
-  background: #f1e9ab; /* Slightly deeper yellow on hover */
-  transform: translateY(-5px); /* Adds a subtle lift effect */
+  background: #f1e9ab;
+  transform: translateY(-5px);
 }
 
 .member-img {
